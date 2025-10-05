@@ -1,6 +1,0 @@
-exp_id,name,description,training_time,img_size,batch_size,learning_rate,dropout_rate,epochs,unfreeze_layers,l2_reg,batch_norm,accuracy,precision,recall,f1_score,auc,exp_dir,rank
-4,fine_tuning_4layers,Fine-tune last 4 layers of VGG16,384.386308,96,32,1e-05,0.5,12,4,0.0,False,0.9622641509433962,0.957286432160804,0.9677068214804064,0.9624684229520029,0.993039990857788,vgg16_experiments/exp04_fine_tuning_4layers,1
-3,batch_norm,Add batch normalization for better training stability,308.477395,96,32,0.0001,0.5,10,0,0.0,True,0.9370464441219158,0.9210066410346033,0.9560957910014514,0.9382232508456472,0.9845794951139721,vgg16_experiments/exp03_batch_norm,2
-2,less_dropout,Reduced dropout to allow more feature learning,310.55004,96,32,0.0001,0.3,10,0,0.0,False,0.9366835994194485,0.9209513816019588,0.9553701015965167,0.9378450578806767,0.9835432285489792,vgg16_experiments/exp02_less_dropout,3
-2,less_dropout,Reduced dropout to allow more feature learning,310.55004,96,32,0.0001,0.3,10,0,0.0,False,0.9366835994194485,0.9209513816019588,0.9553701015965167,0.9378450578806767,0.9835432285489792,vgg16_experiments/exp02_less_dropout,4
-1,baseline,"Baseline VGG16 with frozen weights, moderate learning rate",328.375022,96,32,0.0001,0.5,10,0,0.0,False,0.9332365747460087,0.9192415730337079,0.9499274310595065,0.9343326195574589,0.9822554326646599,vgg16_experiments/exp01_baseline,5
