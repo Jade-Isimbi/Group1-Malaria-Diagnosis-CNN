@@ -1,3 +1,0 @@
-exp_id,name,description,training_time,img_size,batch_size,learning_rate,dropout_rate,epochs,unfreeze_layers,l2_reg,batch_norm,accuracy,precision,recall,f1_score,auc,exp_dir,rank
-2,fine_tuning_4layers,Fine-tune last 4 layers of VGG16,470.761923,96,32,1e-05,0.5,12,4,0.0,False,0.9635341074020319,0.9528535980148883,0.9753265602322206,0.9639591178052717,0.9937142026579823,vgg16_experiments/exp02_fine_tuning_4layers,1
-1,baseline,"Baseline VGG16 with frozen weights, moderate learning rate",359.01595,96,32,0.0001,0.5,10,0,0.0,False,0.9321480406386067,0.9101239669421488,0.9589985486211902,0.933922261484099,0.9826319037919115,vgg16_experiments/exp01_baseline,2
