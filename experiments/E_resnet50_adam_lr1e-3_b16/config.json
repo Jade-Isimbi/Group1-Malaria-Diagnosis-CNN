@@ -1,0 +1,20 @@
+{
+  "img_size": [
+    160,
+    160
+  ],
+  "batch": 8,
+  "epochs": 8,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "dropout": 0.3,
+  "loader": "image_dataset_from_directory",
+  "split": "70/15/15 via 70/30 then take/skip",
+  "backbone": "ResNet50(frozen)",
+  "fine_tune_layers": 30,
+  "lr_fine_tune": 1e-05,
+  "epochs_fine_tune": 8,
+  "fine_tune_layers_2": 50,
+  "lr_fine_tune_2": 1e-05,
+  "epochs_fine_tune_2": 8
+}
