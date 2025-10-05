@@ -8,8 +8,7 @@
 | E0 (Baseline b64) | 95.30% | 98.49% | 84×84 images, batch size 64, Adam optimizer |
 | E2 (Added Conv) | 95.89% | 98.77% | 3 convolutional blocks, no dropout |
 | E3 (Dropout) | 95.82% | 98.87% | 3 convolutional blocks, 0.5 dropout |
-| E4 (Batch Norm) | [TBD] | [TBD] | Batch normalization added |
-| E5 (Data Aug) | [TBD] | [TBD] | Data augmentation techniques |
+
 
 ## Key Findings
 - **Best AUC:** E3 (Dropout) with 98.87%
@@ -33,6 +32,5 @@ baseline_cnn_clean/
     ├── E0_tfdata_baseline_adam_lr1e-3_b64/
     ├── E2_AddConvLayer/
     ├── E3_Dropout/
-    ├── E4_BatchNormalization/
-    └── E5_DataAugmentation/
+  
 ```
