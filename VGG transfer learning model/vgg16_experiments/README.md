@@ -5,9 +5,6 @@ This folder contains the results of VGG16 transfer learning experiments for mala
 ## Experiments Included:
 - **exp01_baseline**: Baseline VGG16 model
 - **exp02_fine_tuning_4layers**: Fine-tuning with 4 layers (model.h5 removed - too large for GitHub)
-- **exp02_less_dropout**: Reduced dropout experiment
-- **exp03_batch_norm**: Batch normalization experiment  
-- **exp04_fine_tuning_4layers**: Another fine-tuning experiment (model.h5 removed - too large for GitHub)
 
 ## Files in Each Experiment:
 - `classification_report.txt`: Detailed classification metrics
